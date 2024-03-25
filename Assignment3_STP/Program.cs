@@ -18,13 +18,14 @@ namespace Assignment3_STP
 
 
             // Display details of vehicles
-            Console.WriteLine("Car Details:");
+            Console.WriteLine("***** Vehicle Details *****\n");
+            Console.WriteLine("---Car---");
             car.DisplayDetails();
 
-            Console.WriteLine("\nTruck Details:");
+            Console.WriteLine("\n---Truck---");
             truck.DisplayDetails();
 
-            Console.WriteLine("\nMotorcycle Details:");
+            Console.WriteLine("\n---Motorcycle---");
             motorcycle.DisplayDetails();
 
             // Create an instance of RentalAgency
